@@ -1,0 +1,16 @@
+.bg-light {
+    background-color: #1369bf
+}
+
+.article-list-footer {
+    display: table;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 12px;
+    color: #909499;
+}
+
+.rticle-list-footer>div {
+    display: table-cell;
+    vertical-align: middle;
+}

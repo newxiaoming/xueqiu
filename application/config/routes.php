@@ -50,7 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 
-$route['default_controller'] = "login";
+$route['default_controller'] = "home/index";
 $route['404_override'] = 'error';
 
 
@@ -82,6 +82,11 @@ $route['resetPasswordConfirmUser'] = "login/resetPasswordConfirmUser";
 $route['resetPasswordConfirmUser/(:any)'] = "login/resetPasswordConfirmUser/$1";
 $route['resetPasswordConfirmUser/(:any)/(:any)'] = "login/resetPasswordConfirmUser/$1/$2";
 $route['createPasswordUser'] = "login/createPasswordUser";
-
+$route['v1/ticker'] = "ticker/get_ticker_data";
+$route['ticker/list'] = "ticker/list";
+$route['article'] = "home/show";
+$route['video'] = "home/index";
+$route['/member/register'] = "home/index";
+$route['/member/register'] = "home/index";
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

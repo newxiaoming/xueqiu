@@ -1,0 +1,48 @@
+.c-logo {
+    float: left;
+    position: relative;
+    width: 82px;
+    height: 26px;
+    margin-right: 28px;
+    margin-top: 3px;
+    background: url(/statics/assets/images/logo.png) no-repeat 50%;
+    background-size: 100%;
+}
+
+.c-nav-login-btn {
+	display: inline-block;
+    line-height: 1;
+    width: 90px;
+    margin-left: 22px;
+    padding: 6px 0;
+    border: 1px solid #fff;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 32px;
+    vertical-align: middle;
+}
+.c-tab-text {
+	font-size: 1rem !important;
+}
+.c-color-black, a.c-color-black:hover {
+	color: #000000 !important;
+	font-size: 18px;
+	font-weight: bold;
+}
+.c-ad-header {
+	margin-bottom: 24px;
+    padding-top: 3px;
+    height: 125px;
+    background: #ecfaff;
+    background-size: 960px 100%;
+}
+/*--//脚部--*/
+.footer {
+	margin-top: 40px;
+	background-color: #f8fbfd;
+	padding-top: 10px;
+}
+/*文章正文*/
+.c-content {
+	margin-top: 30px;
+}
